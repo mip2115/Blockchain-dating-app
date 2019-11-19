@@ -1,0 +1,12 @@
+.merchant {
+  border-bottom: 1px solid #7a7a7a;
+  box-sizing: border-box;
+  padding: 2px;
+  margin: 0px 10px;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.merchantAddr {
+  font-size: 8px;
+}

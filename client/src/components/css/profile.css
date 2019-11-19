@@ -1,0 +1,171 @@
+.profile {
+  height: 300px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 2px 1px rgba(142, 142, 142, 0.2);
+}
+
+.profileImage {
+  flex: 2.5;
+  height: 100%;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.profileBio {
+  flex: 2.5;
+  height: 100%;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  box-sizing: border-box;
+
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.profileDesc {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border-top: 1px solid #7a7a7a;
+  box-sizing: border-box;
+  padding: 2px;
+  font-size: 14px;
+  justify-content: space-around;
+}
+
+.profileAddr {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 8px;
+}
+
+.profileLike {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 80px;
+  background: purple;
+  color: white;
+  font-size: 14px;
+  box-shadow: 1px 2px 3px 1px rgb(58, 58, 58);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.profileLiked {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 80px;
+  background: blue;
+  color: white;
+  font-size: 14px;
+  box-shadow: 1px 2px 3px 1px rgb(58, 58, 58);
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.profileBioDesc {
+  font-size: 14px !important;
+}
+
+.profilePay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 80px;
+  background: green;
+  color: white;
+  box-shadow: 1px 2px 3px 1px rgb(58, 58, 58);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.profileWithdraw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 80px;
+  background: red;
+  color: white;
+  box-shadow: 1px 2px 3px 1px rgb(58, 58, 58);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.profileNumber {
+  border: yellow;
+}
+
+.buttonBio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 80px;
+  background: #939393;
+  color: white;
+  font-size: 14px;
+}
+
+/*
+////
+/
+/
+/
+/
+/
+/*/
+.profile_ {
+  height: 200px;
+  margin-bottom: 20px;
+  display: flex;
+  box-shadow: 2px 2px 2px 1px rgba(106, 106, 106, 0.2);
+}
+
+.profileImage_ {
+  height: 100%;
+
+  width: 200px;
+}
+
+.profileDesc_ {
+  width: 350px;
+  padding: 10px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.profileInfo_ {
+  flex: 1;
+  padding: 8px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.profileAddr_ {
+  font-size: 10px;
+}
