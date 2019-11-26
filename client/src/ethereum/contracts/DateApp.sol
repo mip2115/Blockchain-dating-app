@@ -30,11 +30,7 @@ contract DateApp {
     
     function DateApp() public {
         manager = msg.sender;
-        // place_mappings[0x5F9C9D4ebeBB8d581c651Ae4D863332cb518F5A1] = true;
-        // place_mappings[0x79d10fFF04f8436C971d65c1F3849CE350ed342A] = true;
-        
-        // place_mappings[0xdd870fa1b7c4700f2bd7f44238821c26f7392148] = true;
-        
+
        
     }
     
@@ -74,8 +70,8 @@ contract DateApp {
     // pay the contract
     // change the signautre to accept a merchant addr
     function payDate(address her) public payable {
-        // require(msg.value > 0.01 ether);
-        // require(isMatch(her, msg.sender));
+        require(msg.value > 0.01 ether);
+        require(isMatch(her, msg.sender));
         
         Profile storage her_profile = profile_map[her];
         address merchant = her_profile.place;
